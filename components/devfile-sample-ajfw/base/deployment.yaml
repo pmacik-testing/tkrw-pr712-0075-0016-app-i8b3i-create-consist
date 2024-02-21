@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ajfw
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0016-tenant/tkrw-pr712-0075-0016-app/devfile-sample-ajfw@sha256:990e0fa0f53b58ecc2911f6a903952b902046e0a6cddea6ac1862324ebadd3bf
         name: my-nodejs
         ports:
         - containerPort: 3001
